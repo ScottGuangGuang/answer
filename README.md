@@ -4,7 +4,7 @@ zantong
 
 # 列表接口
 
-1.获取所有问题
+1.获取所有问题列表
 
 2.获取问题回答列表
 
@@ -27,10 +27,10 @@ https://www.superconfig.top/test
     | message | string | 描述 |
    
     
-1. 获取所有上线的币种
+1. 获取所有问题列表
     - 请求方式：GET
     - url：`https://{host}/quote/public/`
-    - 示例：https://www.dfex.com/polarisex/quote/public
+    - 示例：https://www.superconfig.top/test/quote/public
     - 传入值：空
     - 返回值data信息：
     
@@ -53,7 +53,7 @@ https://www.superconfig.top/test
     - 请求方式：GET
     - url：`https://{host}/quote/realTime`
     - 传入值：coins
-    - 示例：https://www.dfex.com/polarisex/quote/realTime?coins=usdt_btc
+    - 示例：https://www.superconfig.top/test/quote/realTime?coins=usdt_btc
     - 返回值data信息：
     
     | 字段名 | 数据类型 | 说明 |
@@ -72,7 +72,7 @@ https://www.superconfig.top/test
 3. 获取某个交易对最新深度
     - 请求方式：GET
     - url：`https://{host}/quote/tradeDeepin`
-    - 示例：https://www.dfex.com/polarisex/quote/tradeDeepin?coins=usdt_btc
+    - 示例：https://www.superconfig.top/test/quote/tradeDeepin?coins=usdt_btc
     - 传入值：
     
         | 字段名 | 数据类型 | 说明 |示例|
@@ -124,7 +124,7 @@ https://www.superconfig.top/test
 
  - 请求方式：GET
     - url：`https://{host}/quote/tradeHistory`
-    - 示例：https://www.dfex.com/polarisex/quote/tradeHistory?coins=usdt_btc&limit=5
+    - 示例：https://www.superconfig.top/test/quote/tradeHistory?coins=usdt_btc&limit=5
     - 传入值：
     
         | 字段名 | 数据类型 | 说明 |示例|
